@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.WebApp", "Transport.WebApp\Transport.WebApp.csproj", "{7DA3C52A-4B42-400B-A5CF-458227513229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.WebApp", "Transport.WebApp\Transport.WebApp.csproj", "{7DA3C52A-4B42-400B-A5CF-458227513229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.Core", "Transport.Core\Transport.Core.csproj", "{0BA1A402-91E0-4817-A021-1BE6A95F6D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.Core", "Transport.Core\Transport.Core.csproj", "{0BA1A402-91E0-4817-A021-1BE6A95F6D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.Infrastructure", "Transport.Infrastructure\Transport.Infrastructure.csproj", "{0E66B646-931E-46C3-89AA-FDD69F322227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.Infrastructure", "Transport.Infrastructure\Transport.Infrastructure.csproj", "{0E66B646-931E-46C3-89AA-FDD69F322227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

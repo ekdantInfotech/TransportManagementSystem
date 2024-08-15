@@ -12,9 +12,11 @@ namespace Transport.WebApp.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            //this.SetupViewDataTitleFromUrl();
+            return RedirectToPage("Dashboards/DefaultDashboard");
+           
         }
     }
 }
