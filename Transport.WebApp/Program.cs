@@ -1,6 +1,10 @@
+using Transport.WebApp;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+ConfigureServices.RegisterServices(builder.Services, builder.Configuration);
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
